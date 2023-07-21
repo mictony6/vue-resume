@@ -1,0 +1,28 @@
+
+:root{
+  --font-mono: 'Martian Mono', monospace;
+  --font-sans-serif:'Inter Tight', sans-serif;
+  --secondary: rgba(217, 215, 215, 0.25);
+  --primary: rgb(6, 132, 164);
+  --primary-alpha: rgba(6, 132, 164, 0.25);
+  --gradient: rgb(164, 114, 6, .25), var(--primary-alpha);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  background: white;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+  font-family: var(--font-sans-serif);
+  /*color: rgb(38,38,38);*/
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
