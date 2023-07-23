@@ -25,21 +25,19 @@ function handleBurger() {
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <Transition name="fade">
-      <div id="navMenu" v-if="menuShow" :class="[menuShow ? 'is-active' : '', 'navbar-menu']">
-        <div class="navbar-start">
-          <a class="navbar-item" @click.prevent="$emit('scrollTo', 'about')" href="/">ABOUT</a>
-          <a class="navbar-item" @click.prevent="$emit('scrollTo', 'skills')" href="#">SKILLS</a>
-          <a class="navbar-item" @click.prevent="$emit('scrollTo', 'projects')" href="#"
-            >PROJECTS & CONTRIBUTION</a
-          >
-          <a class="navbar-item" @click.prevent="$emit('scrollTo', 'education')" href="#"
-            >EDUCATION</a
-          >
-          <a class="navbar-item" @click.prevent="$emit('scrollTo', 'contact')" href="#">CONTACT</a>
-        </div>
+    <div id="navMenu" :class="[menuShow ? 'is-active' : '', 'navbar-menu']">
+      <div class="navbar-start">
+        <a class="navbar-item" @click.prevent="$emit('scrollTo', 'about')" href="/">ABOUT</a>
+        <a class="navbar-item" @click.prevent="$emit('scrollTo', 'skills')" href="#">SKILLS</a>
+        <a class="navbar-item" @click.prevent="$emit('scrollTo', 'projects')" href="#"
+          >PROJECTS & CONTRIBUTION</a
+        >
+        <a class="navbar-item" @click.prevent="$emit('scrollTo', 'education')" href="#"
+          >EDUCATION</a
+        >
+        <a class="navbar-item" @click.prevent="$emit('scrollTo', 'contact')" href="#">CONTACT</a>
       </div>
-    </Transition>
+    </div>
   </nav>
 </template>
 
@@ -69,14 +67,5 @@ a.navbar-item:focus {
 .navbar,
 .navbar-menu {
   background: transparent !important;
-}
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
 }
 </style>
