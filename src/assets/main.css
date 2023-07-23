@@ -1,1 +1,57 @@
 @import './base.css';
+.wrapper {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .wrapper {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .wrapper {
+        width: 1170px;
+    }
+}
+
+
+.section-focused {
+    animation-name: flash;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0,1,.5,1);
+}
+
+@keyframes flash {
+    0% {
+        background-color: #b5effc;
+        transform: scale(90%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+
+}
+
+a{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+.is-sticky-top {
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}

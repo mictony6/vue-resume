@@ -37,16 +37,18 @@ const projects = [
   <section id="projects" class="mt-4">
     <header class="is-flex is-justify-content-space-between is-align-items-center my-5">
       <h3 class="title is-5 is-flex is-align-items-center my-auto">
-        <img class="icon mr-2" :src="projectLogo" alt="projects-icon" />
+        <span class="icon mr-2">
+          <img :src="projectLogo" alt="projects-icon" />
+        </span>
         Projects
       </h3>
       <a target="_blank" href="https://github.com/mictony6" class="ml-auto"
         >View Github Repositories -></a
       >
     </header>
-    <div class="columns is-variable is-2">
+    <div class="columns is-variable is-2 is-multiline">
       <ProjectItem
-        class="column"
+        class="column is-one-third-desktop is-half-tablet is-full-mobile"
         v-bind="project"
         v-for="(project, index) in projects"
         :key="index"

@@ -14,6 +14,8 @@
   box-sizing: border-box;
   margin: 0;
   font-weight: normal;
+  scroll-behavior: smooth;
+
 }
 
 html{
@@ -23,7 +25,6 @@ html{
 
 body {
   background: white;
-  scroll-behavior: smooth;
   min-height: 100vh;
   font-family: var(--font-sans-serif);
   /*color: rgb(38,38,38);*/
