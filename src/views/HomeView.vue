@@ -28,7 +28,6 @@ let nav = ref(null)
 function handleScroll() {
   let currentScrollPos = window.scrollY
   navNormal.value = currentScrollPos <= nav.value.offsetHeight
-  console.log(navNormal.value)
   // makes nav bar go out of page when scrolling down
   navShow.value = prevScrollPos >= currentScrollPos
   prevScrollPos = currentScrollPos
