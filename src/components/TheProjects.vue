@@ -34,7 +34,7 @@ const projects = [
 </script>
 
 <template>
-  <section id="projects">
+  <section id="projects" class="mt-4">
     <header class="is-flex is-justify-content-space-between is-align-items-center my-5">
       <h3 class="title is-5 is-flex is-align-items-center my-auto">
         <img class="icon mr-2" :src="projectLogo" alt="projects-icon" />
@@ -44,10 +44,10 @@ const projects = [
         >View Github Repositories -></a
       >
     </header>
-    <div class="columns is-fullheight">
+    <div class="columns is-variable is-2">
       <ProjectItem
-        v-bind="project"
         class="column"
+        v-bind="project"
         v-for="(project, index) in projects"
         :key="index"
       />
