@@ -17,6 +17,7 @@ const skills = ['Javascript', 'Java', 'C#', 'C', 'Python', 'DBS']
   background: var(--secondary);
   font-family: var(--font-mono);
   border: solid 1px white;
+  background: var(--primary-alpha);
 }
 
 .skill-item:hover {

@@ -9,7 +9,7 @@ import TheEducation from '@/components/TheEducation.vue'
 import { ref } from 'vue'
 
 let prevTarget = ref(null)
-function handleScroll(target) {
+function handleNavigation(target) {
   target.scrollIntoView()
   if (prevTarget.value) {
     prevTarget.value.classList.remove('section-focused')
@@ -19,13 +19,31 @@ function handleScroll(target) {
   }, 120)
   prevTarget.value = target
 }
+
+window.addEventListener('scroll', handleScroll)
+let prevScrollPos = window.scrollY
+let navShow = ref(true)
+let navNormal = ref(true)
+let nav = ref(null)
+function handleScroll() {
+  let currentScrollPos = window.scrollY
+  navNormal.value = currentScrollPos <= nav.value.offsetHeight
+  console.log(navNormal.value)
+  // makes nav bar go out of page when scrolling down
+  navShow.value = prevScrollPos >= currentScrollPos
+  prevScrollPos = currentScrollPos
+}
 </script>
 
 <template>
-  <header class="is-sticky-top has-background-white">
+  <header
+    ref="nav"
+    class="is-sticky-top"
+    :class="[navNormal ? 'nav-normal' : navShow ? 'nav-active' : 'nav-hidden']"
+  >
     <div class="wrapper">
       <nav>
-        <TheNavigation @scrollTo="(refName) => handleScroll(this.$refs[refName].$el)" />
+        <TheNavigation @scrollTo="(refName) => handleNavigation(this.$refs[refName].$el)" />
       </nav>
     </div>
   </header>

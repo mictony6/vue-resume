@@ -52,6 +52,33 @@ a:hover{
 }
 .is-sticky-top {
     position: sticky;
-    top: -1px;
     z-index: 1;
+
 }
+
+.nav-hidden {
+    top: -100%;
+    transition: all 1s linear;
+
+}
+
+.nav-active{
+    top: -1px;
+    transition: all 0.5s cubic-bezier(.11,1.11,.81,1.03);
+    background: var(--primary);
+}
+
+.nav-active a{
+    color: white !important;
+}
+
+.nav-normal{
+    top: -1px;
+    transition: all 0.5s cubic-bezier(.11,1.11,.81,1.03);
+    background: white;
+}
+
+.nav-normal #logo{
+    color: var(--primary);
+}
+
