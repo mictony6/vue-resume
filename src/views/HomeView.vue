@@ -8,6 +8,7 @@ import MyPicture from '@/components/MyPicture.vue'
 import TheEducation from '@/components/TheEducation.vue'
 import { ref } from 'vue'
 
+// highlights target element
 let prevTarget = ref(null)
 function handleNavigation(target) {
   target.scrollIntoView()
@@ -20,18 +21,19 @@ function handleNavigation(target) {
   prevTarget.value = target
 }
 
-window.addEventListener('scroll', handleScroll)
 let prevScrollPos = window.scrollY
 let navShow = ref(true)
 let navNormal = ref(true)
 let nav = ref(null)
 function handleScroll() {
   let currentScrollPos = window.scrollY
+  // changes navbar style when at top
   navNormal.value = currentScrollPos <= nav.value.offsetHeight
   // makes nav bar go out of page when scrolling down
   navShow.value = prevScrollPos >= currentScrollPos
   prevScrollPos = currentScrollPos
 }
+window.addEventListener('scroll', handleScroll)
 </script>
 
 <template>
