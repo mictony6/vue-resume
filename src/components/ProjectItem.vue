@@ -4,7 +4,7 @@ const props = defineProps({
   description: String,
   period: String,
   link: String,
-  image: String
+  image: String,
 })
 </script>
 
@@ -18,7 +18,7 @@ const props = defineProps({
         <h4 class="title is-6">{{ props.title }}</h4>
         <p>{{ props.description }}</p>
         <small>{{ props.period }}</small>
-      </div>
+        </div>
     </div>
   </a>
 </template>

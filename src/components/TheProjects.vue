@@ -4,6 +4,7 @@ import projectLogo from '@/assets/static/images/projects.svg'
 import oasisImg from '@/assets/static/images/oasis.png'
 import artImg from '@/assets/static/images/art.png'
 import snakeImg from '@/assets/static/images/snake.png'
+import dalogicImg from '@/assets/static/images/dalogic.png'
 
 const projects = [
   {
@@ -12,7 +13,14 @@ const projects = [
     link: 'https://github.com/mictony6/oasis-mern',
     description:
       'Web forum application for women experiencing violence. Communicate with other victims and seek out and book consultation with therapists. Developed with Express.js and React frameworks.',
-    image: oasisImg
+    image: oasisImg,
+  },
+    {
+    title: "Dalogic",
+    period: "2024",
+    link:"https://mictony6.itch.io/dalogic-game",
+    description: "A digi-board game inspired by Damath, but with a binary twist! You can play alone with a bot, or with other people using the multiplayer matchmaking. Made with Javascript.",
+    image: dalogicImg,
   },
   {
     title: '3D Art Portfolio',
@@ -20,7 +28,7 @@ const projects = [
     link: 'https://mictony.azurewebsites.net/',
     description:
       'Website made with Python Django for my 3d art portfolio where you can send requests for a commission or view a gallery of my sample works.',
-    image: artImg
+    image: artImg,
   },
   {
     title: 'Snake Game',
@@ -28,8 +36,9 @@ const projects = [
     link: 'https://github.com/mictony6/SnakeGame',
     description:
       'A snake-like game made with Java graphics library. Go thru five levels with different gimmicks and unique solutions.',
-    image: snakeImg
-  }
+    image: snakeImg,
+  },
+
 ]
 </script>
 
