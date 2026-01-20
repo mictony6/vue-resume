@@ -55,8 +55,8 @@ window.addEventListener('scroll', handleScroll)
       <div class="is-flex is-flex-direction-column">
         <MyPicture />
         <TheSkills ref="skills" />
-        <TheEducation ref="education" />
         <TheJobs ref="jobs"/>
+        <TheEducation ref="education" />
         <TheContact ref="contact" />
       </div>
     </div>
