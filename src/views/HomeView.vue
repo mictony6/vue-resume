@@ -6,6 +6,7 @@ import TheContact from '@/components/TheContact.vue'
 import TheSkills from '@/components/TheSkills.vue'
 import MyPicture from '@/components/MyPicture.vue'
 import TheEducation from '@/components/TheEducation.vue'
+import TheJobs from '../components/TheJobs.vue'
 import { ref } from 'vue'
 
 // highlights target element
@@ -55,6 +56,7 @@ window.addEventListener('scroll', handleScroll)
         <MyPicture />
         <TheSkills ref="skills" />
         <TheEducation ref="education" />
+        <TheJobs ref="jobs"/>
         <TheContact ref="contact" />
       </div>
     </div>

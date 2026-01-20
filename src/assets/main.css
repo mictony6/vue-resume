@@ -1,4 +1,7 @@
 @import './base.css';
+
+
+
 .wrapper {
     padding-right: 15px;
     padding-left: 15px;
@@ -82,3 +85,6 @@ a:hover{
     color: var(--primary);
 }
 
+.job-item{
+    margin-bottom: 2rem;
+}

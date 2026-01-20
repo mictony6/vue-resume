@@ -5,6 +5,7 @@ import oasisImg from '@/assets/static/images/oasis.png'
 import artImg from '@/assets/static/images/art.png'
 import snakeImg from '@/assets/static/images/snake.png'
 import dalogicImg from '@/assets/static/images/dalogic.png'
+import taylorBook from '@/assets/static/images/taylorbook.png'
 
 const projects = [
   {
@@ -15,10 +16,10 @@ const projects = [
       'Web forum application for women experiencing violence. Communicate with other victims and seek out and book consultation with therapists. Developed with Express.js and React frameworks.',
     image: oasisImg,
   },
-    {
-    title: "Dalogic",
-    period: "2024",
-    link:"https://mictony6.itch.io/dalogic-game",
+  {
+    title: 'Dalogic',
+    period: '2024',
+    link:'https://mictony6.itch.io/dalogic-game',
     description: "A digi-board game inspired by Damath, but with a binary twist! You can play alone with a bot, or with other people using the multiplayer matchmaking. Made with Javascript.",
     image: dalogicImg,
   },
@@ -29,6 +30,13 @@ const projects = [
     description:
       'Website made with Python Django for my 3d art portfolio where you can send requests for a commission or view a gallery of my sample works.',
     image: artImg,
+  },
+    {
+    title: 'Taylor Swift Fan Book',
+    period: '2024',
+    link: 'https://www.amazon.com/125-Facts-About-Taylor-Swift/dp/B0D2J9255B',
+    description:'Designed and illustrated a commercial fan-made book for Taylor Swift community and fans. Had fun making this as a Swiftie myself. Designs were created inside figma and ported to Adobe InDesign.',
+    image: taylorBook,
   },
   {
     title: 'Snake Game',

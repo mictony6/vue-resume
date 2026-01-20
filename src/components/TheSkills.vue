@@ -1,5 +1,5 @@
 <script setup>
-const skills = ['Javascript', 'Java', 'C#', 'C', 'Python', 'DBS']
+const skills = ['JavaScript', 'Java','TypeScript', 'C#', 'C', 'Python', 'DBS', 'Godot', 'Unity', 'Blender']
 </script>
 
 <template>

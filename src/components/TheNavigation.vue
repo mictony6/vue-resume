@@ -35,6 +35,7 @@ function handleBurger() {
         <a class="navbar-item" @click.prevent="$emit('scrollTo', 'education')" href="#"
           >EDUCATION</a
         >
+        <a class="navbar-item" @click.prevent="$emit('scrollTo', 'jobs')" href="#">JOB HISTORY</a>
         <a class="navbar-item" @click.prevent="$emit('scrollTo', 'contact')" href="#">CONTACT</a>
       </div>
     </div>
