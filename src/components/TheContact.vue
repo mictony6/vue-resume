@@ -8,7 +8,7 @@ import linkedinIcon from '@/assets/static/images/linkedin.svg'
 <template>
   <section id="contact" class="content">
     <h3 class="title is-5">Currently Available</h3>
-    <p><a href="mailto:mbitoon@up.edu.ph">mbitoon@up.edu.ph</a></p>
+    <p><a href="mailto:michaelanthonybitoon@gmail.com">michaelanthonybitoon@gmail.com</a></p>
     <p><a href="tel:+639667780755">+639667780755</a></p>
     <div id="social-links" class="is-flex is-align-items-center">
       <span class="icon">
