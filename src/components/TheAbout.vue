@@ -9,12 +9,12 @@
         internet.
       </p>
       <p>
-        I'm a dedicated computer programmer trying to undertake every possible chances where I
-        can utilize my software development knowledge. Previously, you would find me doing fullstack
+        I call myself a dedicated creative programmer because I always try to undertake every possible chances to utilize my software development knowledge to develop new and innovative experiences. Previously, you would find me doing fullstack
         development training as an intern in a
         <a href="https://dteendurance.com/" target="_blank">company</a>. 
-        Today, I do freelance content writing on the internet for topics such as <a href="https://www.greenbot.com/author/michael/" target="_blank">Artificial Intelligence (AI) news</a> and <a href="https://www.longmontleader.com/writers/michael%20bitoon" target="_blank">travel guide articles</a>. I also dip into the side hobby of developing my own game.
+        Today, I do <a href="https://www.greenbot.com/author/michael/" target="_blank">freelance content</a> <a href="https://www.longmontleader.com/writers/michael%20bitoon" target="_blank">writing</a> on the internet while occasionally dipping into the side hobby of game devlopment.
       </p>
+      
       <p>
         If you are looking for a highly motivated and talented developer (or writer) who's passionate about
         bringing your ideas into life, I would love to

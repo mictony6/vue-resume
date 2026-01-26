@@ -6,8 +6,18 @@ import artImg from '@/assets/static/images/art.png'
 import snakeImg from '@/assets/static/images/snake.png'
 import dalogicImg from '@/assets/static/images/dalogic.png'
 import taylorBook from '@/assets/static/images/taylorbook.png'
+import chichaImg from '@/assets/static/images/chicha.png'
+import soonGame from '@/assets/static/images/soon.png'
 
 const projects = [
+  {
+    title: 'Run, Chicha! Run!',
+    period: '2024',
+    link: 'https://github.com/mictony6/chicharun',
+    description:
+      'A rouge-lite adventure game where you play as cyborg pig who aims to take rid the Earch of the evil aliens. This is a solid and simple game with a fun and replayable game loop, made using Unity Engine.',
+    image: chichaImg,
+  },
   {
     title: 'Oasis',
     period: '2022-2023',
@@ -23,6 +33,7 @@ const projects = [
     description: "A digi-board game inspired by Damath, but with a binary twist! You can play alone with a bot, or with other people using the multiplayer matchmaking. Made with Javascript.",
     image: dalogicImg,
   },
+
   {
     title: '3D Art Portfolio',
     period: '2021',
@@ -38,6 +49,14 @@ const projects = [
     description:'Designed and illustrated a commercial fan-made book for the pop stars community and fans. Had fun making this as a Swiftie myself. Designs were created inside figma and ported to Adobe InDesign.',
     image: taylorBook,
   },
+    {
+    title: 'Cracks',
+    period: '2026',
+    link: 'https://github.com/mictony6/digging-game',
+    description:
+      'An upcoming post-apocalyptic horror mining game. One of the bigger projects Ive been undertaking since 2025.',
+    image: soonGame,
+  },
   {
     title: 'Snake Game',
     period: '2021',
@@ -46,6 +65,7 @@ const projects = [
       'A snake-like game made with Java graphics library. Go thru five levels with different gimmicks and unique solutions.',
     image: snakeImg,
   },
+
 
 ]
 </script>
