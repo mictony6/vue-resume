@@ -12,7 +12,27 @@ import { onMounted, onUnmounted } from 'vue'
 
 // highlights target element
 let prevTarget = ref(null)
-function handleNavigation(target) {
+const about = ref(null)
+const projects = ref(null)
+const skills = ref(null)
+const jobs = ref(null)
+const education = ref(null)
+const contact = ref(null)
+
+const refMap = {
+  about,
+  projects,
+  skills,
+  jobs,
+  education,
+  contact
+}
+
+function handleNavigation(refName) {
+  const targetRef = refMap[refName]
+  if (!targetRef?.value) return
+  
+  const target = targetRef.value.$el || targetRef.value
   target.scrollIntoView()
   if (prevTarget.value) {
     prevTarget.value.classList.remove('section-focused')
@@ -53,7 +73,7 @@ onUnmounted(() => {
   >
     <div class="wrapper">
       <nav>
-        <TheNavigation @scrollTo="(refName) => handleNavigation(this.$refs[refName].$el)" />
+        <TheNavigation @scrollTo="handleNavigation" />
       </nav>
     </div>
   </header>
