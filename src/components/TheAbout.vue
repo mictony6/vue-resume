@@ -12,7 +12,8 @@
         I call myself a dedicated creative programmer because I always try to undertake every possible chances to utilize my software development knowledge to develop new and innovative experiences. Previously, you would find me doing fullstack
         development training as an intern in a
         <a href="https://dteendurance.com/" target="_blank">company</a>. 
-        Today, I do <a href="https://www.greenbot.com/author/michael/" target="_blank">freelance content</a> <a href="https://www.longmontleader.com/writers/michael%20bitoon" target="_blank">writing</a> on the internet while occasionally dipping into the side hobby of game devlopment.
+        Today, I do <a href="https://www.greenbot.com/author/michael/" target="_blank">freelance content</a> <a href="https://www.longmontleader.com/writers/michael%20bitoon" target="_blank">writing</a> 
+        on the internet while occasionally dipping into the side hobby of game devlopment and <a href="https://mictony.artstation.com/" target="_blank">3D art</a>.
       </p>
       
       <p>

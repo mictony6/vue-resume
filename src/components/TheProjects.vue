@@ -8,6 +8,7 @@ import dalogicImg from '@/assets/static/images/dalogic.png'
 import taylorBook from '@/assets/static/images/taylorbook.png'
 import chichaImg from '@/assets/static/images/chicha.png'
 import soonGame from '@/assets/static/images/soon.png'
+import blenderImg from '@/assets/static/images/blender.png'
 
 const projects = [
   {
@@ -57,6 +58,14 @@ const projects = [
       'An upcoming post-apocalyptic horror mining game. One of the bigger projects Ive been undertaking since 2025.',
     image: soonGame,
   },
+    {
+    title: 'Blender 3D Projects',
+    period: '2021-2026',
+    link: 'https://mictony.artstation.com/',
+    description:
+      'This is my Artstation portfolio showcasing all my 3D creations.',
+    image: blenderImg,
+  },
   {
     title: 'Snake Game',
     period: '2021',
@@ -65,6 +74,7 @@ const projects = [
       'A snake-like game made with Java graphics library. Go thru five levels with different gimmicks and unique solutions.',
     image: snakeImg,
   },
+
 
 
 ]
