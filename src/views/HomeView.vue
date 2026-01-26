@@ -8,6 +8,7 @@ import MyPicture from '@/components/MyPicture.vue'
 import TheEducation from '@/components/TheEducation.vue'
 import TheJobs from '../components/TheJobs.vue'
 import { ref } from 'vue'
+import { onMounted, onUnmounted } from 'vue'
 
 // highlights target element
 let prevTarget = ref(null)
@@ -34,7 +35,14 @@ function handleScroll() {
   navShow.value = prevScrollPos >= currentScrollPos
   prevScrollPos = currentScrollPos
 }
-window.addEventListener('scroll', handleScroll)
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
+// window.addEventListener('scroll', handleScroll)
 </script>
 
 <template>
