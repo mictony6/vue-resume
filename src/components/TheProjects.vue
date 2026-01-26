@@ -35,7 +35,7 @@ const projects = [
     title: 'Taylor Swift Fan Book',
     period: '2024',
     link: 'https://www.amazon.com/125-Facts-About-Taylor-Swift/dp/B0D2J9255B',
-    description:'Designed and illustrated a commercial fan-made book for Taylor Swift community and fans. Had fun making this as a Swiftie myself. Designs were created inside figma and ported to Adobe InDesign.',
+    description:'Designed and illustrated a commercial fan-made book for the pop stars community and fans. Had fun making this as a Swiftie myself. Designs were created inside figma and ported to Adobe InDesign.',
     image: taylorBook,
   },
   {
